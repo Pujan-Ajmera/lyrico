@@ -48,7 +48,7 @@ class _SearchPageState extends State<SearchPage> {
             );
           },
         ),
-        title: const Text("Your Lyrics",
+        title: const Text("Search Lyrics",
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
         elevation: 4,
         shadowColor: Colors.black54,
@@ -58,8 +58,8 @@ class _SearchPageState extends State<SearchPage> {
         child: Form(
           key: _formKey,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.center,
+            // crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
@@ -80,7 +80,7 @@ class _SearchPageState extends State<SearchPage> {
                     hintText: 'Enter Song Name',
                     hintStyle: TextStyle(color: Colors.white54),
                   ),
-                ),
+                )
               ),
               SizedBox(height: 20),
               Row(
